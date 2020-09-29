@@ -1,0 +1,18 @@
+<!DOCTYPE mozi1 [
+	<!ELEMENT mozi (film+)>
+	<!ELEMENT film (rendezo+,szinesz,iro)>
+	
+		<!ATTLIST film id ID>
+		<!ATTLIST film mufaj (#PCDATA)>
+
+		<!ELEMENT rendezo>
+			<!ATTLIST rendezo id ID>
+			<!ATTLIST rendezo nev (#PCDATA)>
+			
+		<!ELEMENT szinesz>
+			<!ATTLIST szinesz id ID>
+			<!ATTLIST szinesz nev (#PCDATA)>
+			
+		<!ELEMENT iro>
+			<!ATTLIST iro id ID>
+]>
