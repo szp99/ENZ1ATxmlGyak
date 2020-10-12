@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="mozi">
+
+	<xs:element name="film">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:attribute name="id" type="xs:integer"/>
+				<xs:attribute name="mufaj" type="xs:string"/>
+		
+				<xs:element name="rendezo" type="xs:string">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:attribute name="id" type="xs:integer"/>
+							<xs:attribute name="nev" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="szinesz" type="xs:string">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:attribute name="id" type="xs:integer"/>
+							<xs:attribute name="nev" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="iro" type="xs:string">
+					<xs:attribute name="id"/>
+				</xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:element>
+
+</xs:schema>
