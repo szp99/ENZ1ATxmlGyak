@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note SYSTEM "ember.xsd">
+
+<ember>
+	<nev1>Kovacs</nev1>
+	<fizetes>200000</fizetes>
+	<nev>Janos</nev>
+</ember>
