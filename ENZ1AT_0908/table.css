@@ -1,0 +1,62 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-size: 18pt;
+  color: white;
+  width: 100%;
+}
+
+td, th {
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  width: 33.33%;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(100,100,100);
+  opacity: 0.9;
+}
+
+caption {
+  padding: 10px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(230,230,230);
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+	background-image: url("wallpaper.jpg");
+}
+
+img {
+	border: 2px;
+	border-style: solid;
+	border-color: rgb(100,100,100);
+}
