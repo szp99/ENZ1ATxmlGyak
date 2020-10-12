@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE note SYSTEM "note.dtd"> -->
+
+<konferencia>
+	<cím>Konferencia az XML nyelvről</cím>
+	<helyszín>Miskolci Egyetem, III. előadó</helyszín>
+	<dátum>2020-09-15</dátum>
+	<előadó>
+		<név>Nagy Lajos</név>
+		<adószám>123456789</adószám>
+		<lakcím>Tokaj, Tisza utca 4.</lakcím>
+	</előadó>
+	<hallgatók>
+		<hallgató>
+			<név>Kis Ferenc</név>
+			<lakcím>Eger, Vár utca 61.</lakcím>
+		</hallgató>
+		<hallgató>
+			<név>Fekete Mária</név>
+			<lakcím>Sárospatak, Alma utca 22.</lakcím>
+		</hallgató>
+		<hallgató>
+			<név>Fehér Jolán</név>
+			<lakcím>Nyíregyháza, Burgonya utca 2.</lakcím>
+		</hallgató>	
+	</hallgatók>
+</konferencia>

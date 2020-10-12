@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE note SYSTEM "note.dtd"> -->
+
+<órarend>
+	<óra id="1" tipus="ea">
+		<tárgy>Algoritmusok és Vizsgálatuk</tárgy>
+		<időpont>
+			<nap>hétfő</nap>
+			<tól>08:00</tól>
+			<ig>10:00</ig>
+		</időpont>
+		<helyszín>A1/12</helyszín>
+		<oktató>Házy Attila</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="2" tipus="gyak">
+		<tárgy>Algoritmusok és Vizsgálatuk</tárgy>
+		<időpont>
+			<nap>hétfő</nap>
+			<tól>10:00</tól>
+			<ig>12:00</ig>
+		</időpont>
+		<helyszín>A1/12</helyszín>
+		<oktató>Házy Attila</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="3" tipus="ea">
+		<tárgy>Mesterséges intelligencia</tárgy>
+		<időpont>
+			<nap>hétfő</nap>
+			<tól>12:00</tól>
+			<ig>15:00</ig>
+		</időpont>
+		<helyszín>A1/305</helyszín>
+		<oktató>Dudás Attila</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="4" tipus="ea">
+		<tárgy>Web technológiák</tárgy>
+		<időpont>
+			<nap>hétfő</nap>
+			<tól>15:00</tól>
+			<ig>17:00</ig>
+		</időpont>
+		<helyszín>Info/103</helyszín>
+		<oktató>Agárdi Anita</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="5" tipus="gy">
+		<tárgy>Web technológiák</tárgy>
+		<időpont>
+			<nap>hétfő</nap>
+			<tól>17:00</tól>
+			<ig>19:00</ig>
+		</időpont>
+		<helyszín>Info/15</helyszín>
+		<oktató>Sátán Ádám</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="6" tipus="ea">
+		<tárgy>Adatkezelés XML-ben</tárgy>
+		<időpont>
+			<nap>kedd</nap>
+			<tól>12:00</tól>
+			<ig>14:00</ig>
+		</időpont>
+		<helyszín>37.ea</helyszín>
+		<oktató>Bednarik László</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="7" tipus="gy">
+		<tárgy>Adatkezelés XML-ben</tárgy>
+		<időpont>
+			<nap>kedd</nap>
+			<tól>14:00</tól>
+			<ig>16:00</ig>
+		</időpont>
+		<helyszín>Info/101</helyszín>
+		<oktató>Bednarik László</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="8" tipus="gy">
+		<tárgy>Mesterséges intelligencia</tárgy>
+		<időpont>
+			<nap>szerda</nap>
+			<tól>11:00</tól>
+			<ig>12:00</ig>
+		</időpont>
+		<helyszín>Info/15</helyszín>
+		<oktató>Dudás László</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="9" tipus="ea">
+		<tárgy>Vállalati rendszerek fejlesztése</tárgy>
+		<időpont>
+			<nap>szerda</nap>
+			<tól>16:00</tól>
+			<ig>18:00</ig>
+		</időpont>
+		<helyszín>Info/202</helyszín>
+		<oktató>Sasvári László</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+	<óra id="10" tipus="gy">
+		<tárgy>Vállalati rendszerek fejlesztése</tárgy>
+		<időpont>
+			<nap>szerda</nap>
+			<tól>18:00</tól>
+			<ig>20:00</ig>
+		</időpont>
+		<helyszín>Info/202</helyszín>
+		<oktató>Sasvári László</oktató>
+		<szak>Programtervező informatikus</szak>
+	</óra>
+</órarend>
