@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE adatbazis SYSTEM "adatbazis.dtd"> -->
+
+<adatbazis>
+	<dolgozo id="0">
+		<nev>Nagy János</nev>
+		<fizetes>200000</fizetes>
+	</dolgozo>
+	<dolgozo id="1">
+		<nev>Kis Ferenc</nev>
+		<fizetes>150000</fizetes>
+	</dolgozo>
+	<dolgozo id="2">
+		<nev>Közepes Mária</nev>
+		<fizetes>175000</fizetes>
+	</dolgozo>		
+</adatbazis>

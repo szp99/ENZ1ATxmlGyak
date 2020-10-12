@@ -1,0 +1,7 @@
+<!DOCTYPE adatbazis [
+	<!ELEMENT adatbazis (dolgozo+)>
+	<!ELEMENT dolgozo (nev,fizetes)>
+		<!ATTLIST dolgozo id ID #REQUIRED>
+		<!ELEMENT nev (#PCDATA)>
+		<!ELEMENT fizetes (#PCDATA)>
+]>
