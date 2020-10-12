@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE iskola SYSTEM "iskola.dtd"> -->
+
+<iskola>
+	<tanar id="0">
+		<nev>Dr. Bednarik László</nev>
+		<szak>Informatika</szak>	
+	</tanar>
+	<tanar id="1">
+		<nev>Fegyverneki Sándor</nev>
+		<szak>Matematika</szak>	
+	</tanar>
+	<tantargy tid="0" tanarid="0">
+		<targynev>Operációs rendszerek</targynev>
+		<osztaly>BPI</osztaly>
+	</tantargy>
+	<tantargy tid="1" tanarid="0">
+		<targynev>Adatkezelés XML-ben</targynev>
+		<osztaly>BPI</osztaly>
+	</tantargy>
+	<tantargy tid="2" tanarid="1">
+		<targynev>Valószínűség számítás</targynev>
+		<osztaly>BPI</osztaly>
+	</tantargy>
+</iskola>
