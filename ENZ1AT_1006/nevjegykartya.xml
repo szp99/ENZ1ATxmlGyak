@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note SYSTEM "nevjegykartya.xsd">
+
+<nevjegykartyak>
+	<nevjegykartya id="1">
+		<nev>Szemán Péter</nev>
+		<ceg>
+			<cim>
+				<iranyitoszam>4400</iranyitoszam>
+				<varos>Nyíregyháza</város>
+				<utca>Paprika utca</utca>
+				<hazszam>8</hazszam>
+			</cim>
+			<nev>Nevtelen Kft.</nev>
+			<telefonszam korzet="36">1234567</telefonszam>
+			<weblap>nevtelen.hu</weblap>
+		</ceg>
+		<beosztas>Informatikai munkatars</beosztas>
+		<telefonszam korzet="36">9876543</telefonszam>
+		<email>peter.szemanka@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>

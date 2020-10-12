@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="ERconv">
+	<xs:complexType>
+	<xs:sequence>
+
+	<xs:element name="A">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:attribute name="a" type="ID"/>
+				
+				<xs:element name="b">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="x" type="xs:integer"/>
+							<xs:element name="y" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+				
+				<xs:element name="c">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c1" type="xs:integer"/>
+							<xs:element name="c2" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>				
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	
+	<xs:element name="B">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:attribute name="a" type="ID"/>
+				
+				<xs:element name="b">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="x" type="xs:integer"/>
+							<xs:element name="y" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+				
+				<xs:element name="fkeyC" type="IDREF">
+					<xs:key name="fkeyC">
+					<xs:selector xpath="C">
+					<xs:field xpath="a">
+				</xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="C">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:attribute name="a" type="ID"/>
+				
+				<xs:element name="b" type="xs:integer"/>	
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+							
+	<xs:element name="ABconn">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="fkeyA" type="IDREF">
+					<xs:key name="fkeyA">
+					<xs:selector xpath="A">
+					<xs:field xpath="a">
+				</xs:element>	
+				
+				<xs:element name="fkeyB" type="IDREF">
+					<xs:key name="fkeyB">
+					<xs:selector xpath="B">
+					<xs:field xpath="a">
+				</xs:element>
+				
+				<xs:element name="c" type="xs:integer"/>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	</xs:sequence>
+	</xs:complexType>	
+	
+</xs:element>
+
+</xs:schema>
