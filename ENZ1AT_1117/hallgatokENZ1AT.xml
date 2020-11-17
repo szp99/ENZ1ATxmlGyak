@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hallgatokENZ1AT.xsl"?>
+
+<osztaly>
+	<alkalmazott id="001">
+		<keresztnev>István</keresztnev>
+		<vezeteknev>Árvai</vezeteknev>
+		<becenev>Árva</becenev>
+		<fizetes>60000</fizetes>
+	</alkalmazott>
+	<alkalmazott id="024">
+		<keresztnev>Sára</keresztnev>
+		<vezeteknev>Keszeg</vezeteknev>
+		<becenev>Keszi</becenev>
+		<fizetes>45000</fizetes>
+	</alkalmazott>
+	<alkalmazott id="056">
+		<keresztnev>Gábor</keresztnev>
+		<vezeteknev>Simon</vezeteknev>
+		<becenev>Simi</becenev>
+		<fizetes>20000</fizetes>
+	</alkalmazott>
+</osztaly>
