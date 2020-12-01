@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">>
+
+<xs:element name="nyomda">
+	<xs:complexType>
+	<xs:sequence>
+	
+	<xs:element name="rendelés" minOccurs="1" maxOccurs="unbounded">
+		<xs:complexType>
+		<xs:sequence>
+		
+			<xs:attribute name="rid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
+			<xs:element name="dátum" type="xs:date" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="darab" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ár" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+		
+			<xs:element name="kiadvány" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+				<xs:sequence>
+				
+					<xs:attribute name="kid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
+					<xs:element name="cím" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="típus" type="xs:string" minOccurs="1" maxOccurs="1"/>			
+					<xs:element name="oldalszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+					
+				</xs:sequence>
+				</xs:complexType>			
+			</xs:element>
+			
+			<xs:element name="megrendelő" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+				<xs:sequence>
+				
+					<xs:attribute name="mid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
+					<xs:element name="név" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="telefonszám" type="xs:integer" minOccurs="1" maxOccurs="3"/>
+					<xs:element name="lakcím">
+						<xs:complexType>
+						<xs:sequence>		
+							<xs:element name="irányítószám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="város" type="xs:string" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="utca" type="xs:string" minOccurs="1" maxOccurs="1"/>	
+							<xs:element name="házszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>					
+						</xs:sequence>
+						</xs:complexType>			
+					</xs:element>
+					
+				</xs:sequence>
+				</xs:complexType>			
+			</xs:element>
+		
+			<xs:element name="dolgozó" minOccurs="1" maxOccurs="5">
+				<xs:complexType>
+				<xs:sequence>
+				
+					<xs:attribute name="did" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
+					<xs:element name="név" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="ráfordítottórák" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="telefonszám" type="xs:integer" minOccurs="1" maxOccurs="3"/>
+					<xs:element name="lakcím">
+						<xs:complexType>
+						<xs:sequence>		
+							<xs:element name="irányítószám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="város" type="xs:string" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="utca" type="xs:string" minOccurs="1" maxOccurs="1"/>	
+							<xs:element name="házszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>					
+						</xs:sequence>
+						</xs:complexType>			
+					</xs:element>
+					
+					<xs:element name="munkaszerződés" minOccurs="1" maxOccurs="1">
+						<xs:complexType>
+						<xs:sequence>		
+						
+							<xs:attribute name="szid" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="kezdete" type="xs:date" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="beosztás" type="xs:string" minOccurs="1" maxOccurs="1"/>	
+							<xs:element name="fizetés" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
+										
+						</xs:sequence>
+						</xs:complexType>			
+					</xs:element>
+					
+				</xs:sequence>
+				</xs:complexType>			
+			</xs:element>
+		
+		</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	</xs:sequence>
+	</xs:complexType>	
+</xs:element>
+
+</xs:schema>
