@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "XMLSchemaENZ1AT.xsd">
+
+<nyomda>
+	<rendelés rid="1">
+		<dátum>2020-11-14</dátum>
+		<darab>3</darab>
+		<ár>14000</ár>
+		<kiadvány kid="3">
+			<cím>Az elveszett almafa</cím>
+			<típus>Könyv</típus>
+			<oldalszám>246</oldalszám>
+		</kiadvány>
+		<megrendelő mid="6">
+			<név>Kis Ferenc</név>
+			<telefon>307891264</telefon>
+			<lakcím>
+				<irányítószám>4400</irányítószám>
+				<város>Nyíregyháza</város>
+				<utca>Burgonya utca</utca>
+				<házszám>16</házszám>
+			</lakcím>
+		</megrendelő>
+		<dolgozó did="2">
+			<név>Fekete Ábrahám</név>
+			<ráfordítottórák>6</ráfordítottórák>
+			<telefon>301195554</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Gyár utca</utca>
+				<házszám>5</házszám>
+			</lakcím>
+			<munkaszerződés szid="2">
+				<kezdete>2019-10-17</kezdete>
+				<beosztás>Gépkezelő</beosztás>
+				<fizetés>240000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+		<dolgozó did="4">
+			<név>Körtefalvi Endre</név>
+			<ráfordítottórák>3</ráfordítottórák>
+			<telefon>306761119</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Petőfi utca</utca>
+				<házszám>145</házszám>
+			</lakcím>
+			<munkaszerződés szid="5">
+				<kezdete>2019-11-26</kezdete>
+				<beosztás>Gépmester</beosztás>
+				<fizetés>320000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+	</rendelés>
+
+	<rendelés rid="2">
+		<dátum>2020-11-15</dátum>
+		<darab>16</darab>
+		<ár>3500</ár>
+		<kiadvány kid="5">
+			<cím>Jelentkezési lap</cím>
+			<típus>Dokumentum</típus>
+			<oldalszám>3</oldalszám>
+		</kiadvány>
+		<megrendelő mid="4">
+			<név>Nagy Andrea</név>
+			<telefon>201173881</telefon>
+			<telefon>309813140</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Híd utca</utca>
+				<házszám>40</házszám>
+			</lakcím>
+		</megrendelő>
+		<dolgozó did="5">
+			<név>Szegedi Jolán</név>
+			<ráfordítottórák>2</ráfordítottórák>
+			<telefon>300498810</telefon>
+			<lakcím>
+				<irányítószám>3910</irányítószám>
+				<város>Tokaj</város>
+				<utca>Tisza utca</utca>
+				<házszám>17</házszám>
+			</lakcím>
+			<munkaszerződés szid="6">
+				<kezdete>2020-02-11</kezdete>
+				<beosztás>Segéd</beosztás>
+				<fizetés>210000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+	</rendelés>
+	
+	<rendelés rid="3">
+		<dátum>2020-11-19</dátum>
+		<darab>10</darab>
+		<ár>20000</ár>
+		<kiadvány kid="7">
+			<cím>Német lexikon</cím>
+			<típus>Könyv</típus>
+			<oldalszám>210</oldalszám>
+		</kiadvány>
+		<megrendelő mid="7">
+			<név>Balatoni Jenő</név>
+			<telefon>300406671</telefon>
+			<lakcím>
+				<irányítószám>3950</irányítószám>
+				<város>Sárospatak</város>
+				<utca>Váralja utca</utca>
+				<házszám>2</házszám>
+			</lakcím>
+		</megrendelő>
+		<dolgozó did="2">
+			<név>Fekete Ábrahám</név>
+			<ráfordítottórák>6</ráfordítottórák>
+			<telefon>301195554</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Gyár utca</utca>
+				<házszám>5</házszám>
+			</lakcím>
+			<munkaszerződés szid="2">
+				<kezdete>2019-10-17</kezdete>
+				<beosztás>Gépkezelő</beosztás>
+				<fizetés>240000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+		<dolgozó did="9">
+			<név>Kerekes Kázmér</név>
+			<ráfordítottórák>5</ráfordítottórák>
+			<telefon>202201492</telefon>
+			<telefon>305513040</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Halászlé utca</utca>
+				<házszám>76</házszám>
+			</lakcím>
+			<munkaszerződés szid="11">
+				<kezdete>2020-04-15</kezdete>
+				<beosztás>Előkészítő</beosztás>
+				<fizetés>230000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+	</rendelés>
+	
+	<rendelés rid="4">
+		<dátum>2020-11-25</dátum>
+		<darab>15</darab>
+		<ár>7000</ár>
+		<kiadvány kid="15">
+			<cím>A Római Birodalom története</cím>
+			<típus>Könyv</típus>
+			<oldalszám>41</oldalszám>
+		</kiadvány>
+		<megrendelő mid="1">
+			<név>Lengyel Ádám</név>
+			<telefon>309876112</telefon>
+			<lakcím>
+				<irányítószám>4400</irányítószám>
+				<város>Nyíregyháza</város>
+				<utca>Vasút utca</utca>
+				<házszám>33</házszám>
+			</lakcím>
+		</megrendelő>
+		<dolgozó did="4">
+			<név>Körtefalvi Endre</név>
+			<ráfordítottórák>4</ráfordítottórák>
+			<telefon>306761119</telefon>
+			<lakcím>
+				<irányítószám>3500</irányítószám>
+				<város>Miskolc</város>
+				<utca>Petőfi utca</utca>
+				<házszám>145</házszám>
+			</lakcím>
+			<munkaszerződés szid="5">
+				<kezdete>2019-11-26</kezdete>
+				<beosztás>Gépmester</beosztás>
+				<fizetés>320000</fizetés>
+			</munkaszerződés>
+		</dolgozó>
+	</rendelés>
+</nyomda>
