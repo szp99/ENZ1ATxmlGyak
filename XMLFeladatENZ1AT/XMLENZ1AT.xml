@@ -1,186 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE note SYSTEM "XMLSchemaENZ1AT.xsd">
 
-<nyomda>
-	<rendelés rid="1">
-		<dátum>2020-11-14</dátum>
-		<darab>3</darab>
-		<ár>14000</ár>
-		<kiadvány kid="3">
-			<cím>Az elveszett almafa</cím>
-			<típus>Könyv</típus>
-			<oldalszám>246</oldalszám>
-		</kiadvány>
-		<megrendelő mid="6">
-			<név>Kis Ferenc</név>
-			<telefon>307891264</telefon>
-			<lakcím>
-				<irányítószám>4400</irányítószám>
-				<város>Nyíregyháza</város>
-				<utca>Burgonya utca</utca>
-				<házszám>16</házszám>
-			</lakcím>
-		</megrendelő>
-		<dolgozó did="2">
-			<név>Fekete Ábrahám</név>
-			<ráfordítottórák>6</ráfordítottórák>
-			<telefon>301195554</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Gyár utca</utca>
-				<házszám>5</házszám>
-			</lakcím>
-			<munkaszerződés szid="2">
-				<kezdete>2019-10-17</kezdete>
-				<beosztás>Gépkezelő</beosztás>
-				<fizetés>240000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-		<dolgozó did="4">
-			<név>Körtefalvi Endre</név>
-			<ráfordítottórák>3</ráfordítottórák>
-			<telefon>306761119</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Petőfi utca</utca>
-				<házszám>145</házszám>
-			</lakcím>
-			<munkaszerződés szid="5">
-				<kezdete>2019-11-26</kezdete>
-				<beosztás>Gépmester</beosztás>
-				<fizetés>320000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-	</rendelés>
+<nyomda
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="XMLSchemaENZ1AT.xsd">
 
-	<rendelés rid="2">
-		<dátum>2020-11-15</dátum>
-		<darab>16</darab>
-		<ár>3500</ár>
-		<kiadvány kid="5">
-			<cím>Jelentkezési lap</cím>
-			<típus>Dokumentum</típus>
-			<oldalszám>3</oldalszám>
-		</kiadvány>
-		<megrendelő mid="4">
-			<név>Nagy Andrea</név>
-			<telefon>201173881</telefon>
-			<telefon>309813140</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Híd utca</utca>
-				<házszám>40</házszám>
-			</lakcím>
-		</megrendelő>
-		<dolgozó did="5">
-			<név>Szegedi Jolán</név>
-			<ráfordítottórák>2</ráfordítottórák>
-			<telefon>300498810</telefon>
-			<lakcím>
-				<irányítószám>3910</irányítószám>
-				<város>Tokaj</város>
-				<utca>Tisza utca</utca>
-				<házszám>17</házszám>
-			</lakcím>
-			<munkaszerződés szid="6">
-				<kezdete>2020-02-11</kezdete>
-				<beosztás>Segéd</beosztás>
-				<fizetés>210000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-	</rendelés>
+	<rendeles rid="1" kiadvanyid="1" megrendeloid="1">
+		<datum>2020-11-14</datum>
+		<darab>4</darab>
+		<ar>14000</ar>
+	</rendeles>
 	
-	<rendelés rid="3">
-		<dátum>2020-11-19</dátum>
-		<darab>10</darab>
-		<ár>20000</ár>
-		<kiadvány kid="7">
-			<cím>Német lexikon</cím>
-			<típus>Könyv</típus>
-			<oldalszám>210</oldalszám>
-		</kiadvány>
-		<megrendelő mid="7">
-			<név>Balatoni Jenő</név>
-			<telefon>300406671</telefon>
-			<lakcím>
-				<irányítószám>3950</irányítószám>
-				<város>Sárospatak</város>
-				<utca>Váralja utca</utca>
-				<házszám>2</házszám>
-			</lakcím>
-		</megrendelő>
-		<dolgozó did="2">
-			<név>Fekete Ábrahám</név>
-			<ráfordítottórák>6</ráfordítottórák>
-			<telefon>301195554</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Gyár utca</utca>
-				<házszám>5</házszám>
-			</lakcím>
-			<munkaszerződés szid="2">
-				<kezdete>2019-10-17</kezdete>
-				<beosztás>Gépkezelő</beosztás>
-				<fizetés>240000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-		<dolgozó did="9">
-			<név>Kerekes Kázmér</név>
-			<ráfordítottórák>5</ráfordítottórák>
-			<telefon>202201492</telefon>
-			<telefon>305513040</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Halászlé utca</utca>
-				<házszám>76</házszám>
-			</lakcím>
-			<munkaszerződés szid="11">
-				<kezdete>2020-04-15</kezdete>
-				<beosztás>Előkészítő</beosztás>
-				<fizetés>230000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-	</rendelés>
+	<rendeles rid="2" kiadvanyid="2" megrendeloid="3">
+		<datum>2020-11-29</datum>
+		<darab>30</darab>
+		<ar>4000</ar>
+	</rendeles>
 	
-	<rendelés rid="4">
-		<dátum>2020-11-25</dátum>
-		<darab>15</darab>
-		<ár>7000</ár>
-		<kiadvány kid="15">
-			<cím>A Római Birodalom története</cím>
-			<típus>Könyv</típus>
-			<oldalszám>41</oldalszám>
-		</kiadvány>
-		<megrendelő mid="1">
-			<név>Lengyel Ádám</név>
-			<telefon>309876112</telefon>
-			<lakcím>
-				<irányítószám>4400</irányítószám>
-				<város>Nyíregyháza</város>
-				<utca>Vasút utca</utca>
-				<házszám>33</házszám>
-			</lakcím>
-		</megrendelő>
-		<dolgozó did="4">
-			<név>Körtefalvi Endre</név>
-			<ráfordítottórák>4</ráfordítottórák>
-			<telefon>306761119</telefon>
-			<lakcím>
-				<irányítószám>3500</irányítószám>
-				<város>Miskolc</város>
-				<utca>Petőfi utca</utca>
-				<házszám>145</házszám>
-			</lakcím>
-			<munkaszerződés szid="5">
-				<kezdete>2019-11-26</kezdete>
-				<beosztás>Gépmester</beosztás>
-				<fizetés>320000</fizetés>
-			</munkaszerződés>
-		</dolgozó>
-	</rendelés>
+	<rendeles rid="3" kiadvanyid="3" megrendeloid="2">
+		<datum>2020-11-30</datum>
+		<darab>17</darab>
+		<ar>23000</ar>
+	</rendeles>
+
+	<megrendelo mid="1">
+		<mnev>Kovacs Jakab</mnev>
+		<mlakcim>
+			<miranyitoszam>3500</miranyitoszam>
+			<mvaros>Miskolc</mvaros>
+			<mutca>Petofi utca</mutca>
+			<mhazszam>14</mhazszam>
+		</mlakcim>	
+	</megrendelo>
+	
+	<megrendelo mid="2">
+		<mnev>Paradicsomos Abraham</mnev>
+		<mlakcim>
+			<miranyitoszam>3910</miranyitoszam>
+			<mvaros>Tokaj</mvaros>
+			<mutca>Tiszapart utca</mutca>
+			<mhazszam>2</mhazszam>
+		</mlakcim>	
+	</megrendelo>
+
+	<megrendelo mid="3">
+		<mnev>Nagy Ilona</mnev>
+		<mlakcim>
+			<miranyitoszam>4400</miranyitoszam>
+			<mvaros>Nyiregyhaza</mvaros>
+			<mutca>Fasor utca</mutca>
+			<mhazszam>8</mhazszam>
+		</mlakcim>	
+	</megrendelo>
+
+	<megrendelotelefon megrendeloid="1">
+		<mtelefon>305545546</mtelefon>
+	</megrendelotelefon>
+	
+	<megrendelotelefon megrendeloid="2">
+		<mtelefon>301155667</mtelefon>
+	</megrendelotelefon>
+	
+	<megrendelotelefon megrendeloid="3">
+		<mtelefon>201198872</mtelefon>
+	</megrendelotelefon>
+
+	<kiadvany kid="1">
+		<cim>Az elveszett almafa</cim>
+		<tipus>Konyv</tipus>
+		<oldalszam>144</oldalszam>
+	</kiadvany>
+	
+	<kiadvany kid="2">
+		<cim>Jelentkezesi lap</cim>
+		<tipus>Dokumentum</tipus>
+		<oldalszam>3</oldalszam>
+	</kiadvany>
+	
+	<kiadvany kid="3">
+		<cim>Tiszaparti hetilap</cim>
+		<tipus>Folyoirat</tipus>
+		<oldalszam>20</oldalszam>
+	</kiadvany>
+
+	<dolgozo did="1" szerzodesid="1">
+		<dnev>Fekete Jolan</dnev>
+		<dlakcim>
+			<diranyitoszam>3500</diranyitoszam>
+			<dvaros>Miskolc</dvaros>
+			<dutca>Korte utca</dutca>
+			<dhazszam>98</dhazszam>
+		</dlakcim>	
+	</dolgozo>
+	
+	<dolgozo did="2" szerzodesid="2">
+		<dnev>Budai David</dnev>
+		<dlakcim>
+			<diranyitoszam>3500</diranyitoszam>
+			<dvaros>Miskolc</dvaros>
+			<dutca>Dios utca</dutca>
+			<dhazszam>119</dhazszam>
+		</dlakcim>	
+	</dolgozo>
+	
+	<dolgozo did="3" szerzodesid="3">
+		<dnev>Sarospataki Elemer</dnev>
+		<dlakcim>
+			<diranyitoszam>3500</diranyitoszam>
+			<dvaros>Miskolc</dvaros>
+			<dutca>Barackfa utca</dutca>
+			<dhazszam>60</dhazszam>
+		</dlakcim>	
+	</dolgozo>
+	
+	<dolgozotelefon dolgozoid="1">
+		<dtelefon>305545546</dtelefon>
+	</dolgozotelefon>
+	
+	<dolgozotelefon dolgozoid="2">
+		<dtelefon>301982345</dtelefon>
+	</dolgozotelefon>
+	
+	<dolgozotelefon dolgozoid="3">
+		<dtelefon>202066711</dtelefon>
+	</dolgozotelefon>
+
+	<szerzodes szid="1">
+		<kezdete>2020-01-15</kezdete>
+		<beosztas>Gepkezelo</beosztas>
+		<fizetes>250000</fizetes>
+	</szerzodes>
+	
+	<szerzodes szid="2">
+		<kezdete>2019-12-01</kezdete>
+		<beosztas>Seged</beosztas>
+		<fizetes>210000</fizetes>
+	</szerzodes>
+	
+	<szerzodes szid="3">
+		<kezdete>2020-04-07</kezdete>
+		<beosztas>Nyomdai gepmester</beosztas>
+		<fizetes>320000</fizetes>
+	</szerzodes>
+	
+	<DR dolgozoid="1" rendelesid="1">
+		<raforditottorak>5</raforditottorak>
+	</DR>
+	
+	<DR dolgozoid="2" rendelesid="2">
+		<raforditottorak>3</raforditottorak>
+	</DR>
+	
+	<DR dolgozoid="3" rendelesid="3">
+		<raforditottorak>4</raforditottorak>
+	</DR>
+	
 </nyomda>

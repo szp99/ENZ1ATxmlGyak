@@ -1,99 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/XMLSchemaENZ1AZ" xmlns:tns="http://www.example.org/XMLSchemaENZ1AZ" elementFormDefault="qualified">
 
 <xs:element name="nyomda">
 	<xs:complexType>
 	<xs:sequence>
 	
-	<xs:element name="rendelés" minOccurs="1" maxOccurs="unbounded">
+	<xs:element name="rendeles">
 		<xs:complexType>
-		<xs:sequence>
-		
-			<xs:attribute name="rid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
-			<xs:element name="dátum" type="xs:date" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="darab" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="ár" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-		
-			<xs:element name="kiadvány" minOccurs="1" maxOccurs="1">
-				<xs:complexType>
-				<xs:sequence>
-				
-					<xs:attribute name="kid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
-					<xs:element name="cím" type="xs:string" minOccurs="1" maxOccurs="1"/>
-					<xs:element name="típus" type="xs:string" minOccurs="1" maxOccurs="1"/>			
-					<xs:element name="oldalszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-					
-				</xs:sequence>
-				</xs:complexType>			
-			</xs:element>
-			
-			<xs:element name="megrendelő" minOccurs="1" maxOccurs="1">
-				<xs:complexType>
-				<xs:sequence>
-				
-					<xs:attribute name="mid" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
-					<xs:element name="név" type="xs:string" minOccurs="1" maxOccurs="1"/>
-					<xs:element name="telefonszám" type="xs:integer" minOccurs="1" maxOccurs="3"/>
-					<xs:element name="lakcím">
-						<xs:complexType>
-						<xs:sequence>		
-							<xs:element name="irányítószám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="város" type="xs:string" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="utca" type="xs:string" minOccurs="1" maxOccurs="1"/>	
-							<xs:element name="házszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>					
-						</xs:sequence>
-						</xs:complexType>			
-					</xs:element>
-					
-				</xs:sequence>
-				</xs:complexType>			
-			</xs:element>
-		
-			<xs:element name="dolgozó" minOccurs="1" maxOccurs="5">
-				<xs:complexType>
-				<xs:sequence>
-				
-					<xs:attribute name="did" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
-					<xs:element name="név" type="xs:string" minOccurs="1" maxOccurs="1"/>
-					<xs:element name="ráfordítottórák" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-					<xs:element name="telefonszám" type="xs:integer" minOccurs="1" maxOccurs="3"/>
-					<xs:element name="lakcím">
-						<xs:complexType>
-						<xs:sequence>		
-							<xs:element name="irányítószám" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="város" type="xs:string" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="utca" type="xs:string" minOccurs="1" maxOccurs="1"/>	
-							<xs:element name="házszám" type="xs:integer" minOccurs="1" maxOccurs="1"/>					
-						</xs:sequence>
-						</xs:complexType>			
-					</xs:element>
-					
-					<xs:element name="munkaszerződés" minOccurs="1" maxOccurs="1">
-						<xs:complexType>
-						<xs:sequence>		
-						
-							<xs:attribute name="szid" type="xs:integer" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="kezdete" type="xs:date" minOccurs="1" maxOccurs="1"/>
-							<xs:element name="beosztás" type="xs:string" minOccurs="1" maxOccurs="1"/>	
-							<xs:element name="fizetés" type="xs:integer" minOccurs="1" maxOccurs="1"/>		
-										
-						</xs:sequence>
-						</xs:complexType>			
-					</xs:element>
-					
-				</xs:sequence>
-				</xs:complexType>			
-			</xs:element>
-		
+		<xs:sequence>					
+			<xs:element name="datum" type="xs:date"/>
+			<xs:element name="darab" type="xs:integer"/>
+			<xs:element name="ar" type="xs:integer"/>								
 		</xs:sequence>
+			<xs:attribute name="rid" type="xs:integer" use="required"/>
+			<xs:attribute name="kiadvanyid" type="xs:integer"/>
+			<xs:attribute name="megrendeloid" type="xs:integer"/>
 		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="megrendelo">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="mnev" type="xs:string"/>
+			<xs:element name="mlakcim">
+				<xs:complexType>
+				<xs:sequence>				
+					<xs:element name="miranyitoszam" type="xs:integer"/>
+					<xs:element name="mvaros" type="xs:string"/>
+					<xs:element name="mutca" type="xs:string"/>
+					<xs:element name="mhazszam" type="xs:integer"/>					
+				</xs:sequence>
+				</xs:complexType>
+			</xs:element>								
+		</xs:sequence>		
+		<xs:attribute name="mid" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="megrendelotelefon">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="mtelefon" type="xs:integer"/>					
+		</xs:sequence>
+		<xs:attribute name="megrendeloid" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="kiadvany">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="cim" type="xs:string"/>
+			<xs:element name="tipus" type="xs:string"/>
+			<xs:element name="oldalszam" type="xs:integer"/>				
+		</xs:sequence>
+		<xs:attribute name="kid" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="dolgozo">
+		<xs:complexType>
+		<xs:sequence>	
+			<xs:element name="dnev" type="xs:string"/>
+			<xs:element name="dlakcim">
+				<xs:complexType>
+				<xs:sequence>				
+					<xs:element name="diranyitoszam" type="xs:integer"/>
+					<xs:element name="dvaros" type="xs:string"/>
+					<xs:element name="dutca" type="xs:string"/>
+					<xs:element name="dhazszam" type="xs:integer"/>				
+				</xs:sequence>
+				</xs:complexType>
+			</xs:element>								
+		</xs:sequence>
+		<xs:attribute name="did" type="xs:integer" use="required"/>
+			<xs:attribute name="szerzodesid" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="dolgozotelefon">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="dtelefon" type="xs:integer"/>					
+		</xs:sequence>
+		<xs:attribute name="dolgozoid" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="szerzodes">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="kezdete" type="xs:date"/>
+			<xs:element name="beosztas" type="xs:string"/>
+			<xs:element name="fizetes" type="xs:integer"/>				
+		</xs:sequence>
+		<xs:attribute name="szid" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="DR">
+		<xs:complexType>
+		<xs:sequence>		
+			<xs:element name="raforditottorak" type="xs:integer"/>					
+		</xs:sequence>
+		<xs:attribute name="dolgozoid" type="xs:integer" use="required"/>
+			<xs:attribute name="rendelesid" type="xs:integer" use="required"/>
+		</xs:complexType>	
 	</xs:element>
 	
 	</xs:sequence>
 	</xs:complexType>	
+	
+	<xs:key name="kid">
+		<xs:selector xpath=".//kiadvany"/>
+		<xs:field xpath="@kid"/>
+	</xs:key>
+	
+	<xs:keyref name="kiadvanyidref" refer="kid">
+		<xs:selector xpath=".//rendeles"/>
+		<xs:field xpath="@kiadvanyid"/>
+	</xs:keyref>
+	
+	<xs:key name="mid">
+		<xs:selector xpath=".//megrendelo"/>
+		<xs:field xpath="@mid"/>
+	</xs:key>
+	
+	<xs:keyref name="megrendeloidref" refer="mid">
+		<xs:selector xpath=".//rendeles"/>
+		<xs:field xpath="@megrendeloid"/>
+	</xs:keyref>
+	
+	<xs:keyref name="megrendeloidref2" refer="mid">
+		<xs:selector xpath=".//megrendelotelefon"/>
+		<xs:field xpath="@megrendeloid"/>
+	</xs:keyref>
+	
+	<xs:key name="rid">
+		<xs:selector xpath=".//rendeles"/>
+		<xs:field xpath="@rid"/>
+	</xs:key>
+	
+	<xs:keyref name="rendelesidref" refer="rid">
+		<xs:selector xpath=".//DR"/>
+		<xs:field xpath="@rendelesid"/>
+	</xs:keyref>
+	
+	<xs:key name="did">
+		<xs:selector xpath=".//dolgozo"/>
+		<xs:field xpath="@did"/>
+	</xs:key>
+	
+	<xs:keyref name="dolgozoidref" refer="did">
+		<xs:selector xpath=".//DR"/>
+		<xs:field xpath="@dolgozoid"/>
+	</xs:keyref>
+	
+	<xs:keyref name="dolgozoidref2" refer="did">
+		<xs:selector xpath=".//dolgozotelefon"/>
+		<xs:field xpath="@dolgozoid"/>
+	</xs:keyref>
+	
+	<xs:key name="szid">
+		<xs:selector xpath=".//szerzodes"/>
+		<xs:field xpath="@szid"/>
+	</xs:key>
+	
+	<xs:keyref name="szerzodesidref" refer="szid">
+		<xs:selector xpath=".//dolgozo"/>
+		<xs:field xpath="@szerzodesid"/>
+	</xs:keyref>
+	
 </xs:element>
 
-</xs:schema>
+</schema>
